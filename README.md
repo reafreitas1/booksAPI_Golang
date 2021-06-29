@@ -14,7 +14,7 @@
 **In a terminal:**
 `docker-compose up --build` (database)
 
-** In other terminal to execute:**
+**In other terminal to execute:**
 `go run main.go`
 
 **Resources:** 
