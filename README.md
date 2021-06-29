@@ -20,6 +20,7 @@
 **Resources:** 
 - Go go1.16.5 linux/amd64
 - Docker 20.10.7
+- Docker-compose 1.26.0
 - NodeJs 14.16.0
 - Psql (13.3 (Debian 13.3-1.pgdg100+1))
 - Visual Studio Code 1.57
