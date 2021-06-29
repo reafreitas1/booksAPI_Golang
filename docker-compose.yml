@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: .dockerfile
-    image: github.com/reafreitas1/booksAPI_Golang-db
+    image: github.com/reafreitas1/booksAPI-db
     container_name: booksAPI_Golang-db
     restart: unless-stopped
     tty: true
@@ -15,9 +15,9 @@ services:
       POSTGRES_DB: books
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 123456
-      PGDATA: /var/lib/postgresql/data/
+      PGDATA: /var/lib/postgresql/data/booksAPI_Golang
     volumes:
       - booksAPI_Golang:/var/lib/postgresql/data
 
 volumes:
-  booksAPI_Golang-db:
+  booksAPI_Golang:

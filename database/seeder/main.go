@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/hyperyuri/webapi-with-go/database"
+	"github.com/reafreitas1/booksAPI_Golang/database"
 )
 
 func main() {
